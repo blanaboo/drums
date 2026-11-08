@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drums – Tests</title>
+    <style>
+      body {
+        font: 14px/1.4 ui-monospace, Consolas, monospace;
+        padding: 16px;
+        background: #fff;
+        color: #111;
+      }
+      .fail {
+        color: #b00020;
+      }
+      .pass {
+        color: #0a7a2f;
+      }
+      #summary {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      #scratch {
+        position: absolute;
+        left: -10000px;
+        width: 1400px;
+      }
+    </style>
+    <script src="../vendor/vexflow/vexflow-bravura.js"></script>
+  </head>
+  <body>
+    <h1>Drums – Tests</h1>
+    <div id="summary">läuft …</div>
+    <pre id="out"></pre>
+    <div id="scratch"></div>
+    <script type="module" src="run.js"></script>
+  </body>
+</html>
